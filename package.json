@@ -1,11 +1,11 @@
 {
-	"name": "ruby-debug",
-	"displayName": "Ruby Debug",
+	"name": "ruby-debug-env",
+	"displayName": "Ruby Debug ENV",
 	"version": "0.3.4",
-	"publisher": "castwide",
-	"description": "A Ruby debugger that uses the Debug Adapter Protocol.",
+	"publisher": "archaicdebugger",
+	"description": "A Ruby debugger that uses the Debug Adapter Protocol - shamelessly forked from castwide's awesome extension",
 	"author": {
-		"name": "Fred Snyder"
+		"name": "Ervin Kurushi"
 	},
 	"license": "MIT",
 	"keywords": [
@@ -15,17 +15,17 @@
 	"engines": {
 		"vscode": "^1.31.0"
 	},
-	"extensionKind": "workspace",
+	"extensionKind": ["workspace"],
 	"icon": "vscode-ruby-debug.png",
 	"categories": [
 		"Debuggers"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/castwide/vscode-ruby-debug"
+		"url": "https://github.com/ArchaicDebugger/vscode-ruby-debug"
 	},
 	"bugs": {
-		"url": "https://github.com/castwide/vscode-ruby-debug/issues"
+		"url": "https://github.com/ArchaicDebugger/vscode-ruby-debug/issues"
 	},
 	"scripts": {
 		"prepublish": "tsc -p ./src",
